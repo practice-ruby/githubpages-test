@@ -1,3 +1,25 @@
 .current {
   color: green;
 }
+.main { grid-area: Center; }
+.toc {
+  position: fixed;
+  grid-area: Right;
+
+  background-color: black;
+  color: white;
+
+  height: 100%;
+
+  right:0;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+
+
+}
+
+.grid-container{
+  display: grid;
+  grid-template-areas: 'Center Center Center Right';
+}
